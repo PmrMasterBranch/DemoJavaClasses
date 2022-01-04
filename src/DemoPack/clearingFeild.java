@@ -28,6 +28,12 @@ public class clearingFeild {
 		
 		WebElement login = driver.findElement(By.id("loginButton"));
 		login.click();
+		
+		WebElement pwd2 = driver.findElement(By.name("pwd"));
+		pwd.sendKeys("manager");
+		
+		WebElement login2 = driver.findElement(By.id("loginButton"));
+		login.click();
 			
 		
 	}
